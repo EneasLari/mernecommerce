@@ -8,3 +8,14 @@ Visual studio extensions
 
 Create react app
 -npx create-react-app frontend
+
+Create a function component(shortcut from component)
+-rafce
+
+React bootstrap
+- https://react-bootstrap.github.io/components/alerts
+- install: 
+- npm install react-bootstrap
+
+Bootswatch
+- https://bootswatch.com/
