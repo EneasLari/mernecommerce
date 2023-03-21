@@ -19,3 +19,7 @@ React bootstrap
 
 Bootswatch
 - https://bootswatch.com/
+
+cdn
+-https://cdnjs.com/
+-find font-awesome
