@@ -5,3 +5,6 @@ Visual studio extensions
 - Auto Rename Tag by Jun Han
 - JavaScript (ES6) code snippets charalampos karypidis
 - Prettier - Code formatter by Prettier prettier.io
+
+Create react app
+-npx create-react-app frontend
