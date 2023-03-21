@@ -1,0 +1,7 @@
+eCommerce with react (youtube channel)
+-https://www.youtube.com/channel/UC2xRE4hUCQ3xO3ymEtMh1Hw
+Visual studio extensions
+- ES7+ React/Redux/React-Native snippets by dsznajder
+- Auto Rename Tag by Jun Han
+- JavaScript (ES6) code snippets charalampos karypidis
+- Prettier - Code formatter by Prettier prettier.io
