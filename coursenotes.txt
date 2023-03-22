@@ -23,3 +23,7 @@ Bootswatch
 cdn
 -https://cdnjs.com/
 -find font-awesome
+
+React router and react router bootstrap
+npm install --save react-router-dom
+npm install --save  react-router-bootstrap
