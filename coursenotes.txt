@@ -27,3 +27,7 @@ cdn
 React router and react router bootstrap
 npm install --save react-router-dom
 npm install --save  react-router-bootstrap
+
+BackEnd
+npm init -  outside backend and frontend folder
+npm install -D nodemon  concurrently  
