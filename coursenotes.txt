@@ -32,3 +32,9 @@ BackEnd
 npm init -  outside backend and frontend folder
 npm install -D nodemon  concurrently  
 npm install --save dotenv
+
+Encrypt passwords
+npm install --save bcryptjs
+
+Simple middleware for handling exceptions inside of async express routes and passing them to your express error handlers.
+npm i express-async-handler
