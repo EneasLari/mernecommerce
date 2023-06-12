@@ -1,17 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements, Routes } from 'react-router-dom'
+import HomeScreen from "./screens/HomeScreen";
+import ProductScreen from "./screens/ProductScreen";
+import CartScreen from './screens/CartScreen';
+import LoginScreen from './screens/LoginScreen';
 
 import { Provider } from 'react-redux';
 import store from './store';
-import './bootstrap.min.css'
-import './index.css';
+
+import './assets/styles/bootstrap.custom.css'
+import './assets/styles/index.css'
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<App />} >
+      <Route path='/login' element={<LoginScreen />} ></Route>
+      <Route path='/product/:id' element={<ProductScreen />} ></Route>
+      <Route path='/cart/:id?' element={<CartScreen />} ></Route>
+      <Route path='/' index={true} element={<HomeScreen />} ></Route>
+    </Route>
+  )
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <App />
+    <RouterProvider router={router} />
   </Provider>
 );
 

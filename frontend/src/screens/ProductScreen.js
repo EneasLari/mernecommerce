@@ -11,6 +11,8 @@ import Message from '../components/Message'
 const ProductScreen = () => {
 
     let { id } = useParams();
+    //youy can rename it
+    //let { id:productId } = useParams();
     let navigate = useNavigate();
 
     const [qty, setQty] = useState(1)
@@ -35,10 +37,10 @@ const ProductScreen = () => {
             </Link>
             {loading ? <Loader /> : error ? <Message variant='danger'>{error}</Message> : (
                 <Row>
-                    <Col md={6}>
+                    <Col md={5}>
                         <Image src={product.image} alt={product.name} fluid></Image>
                     </Col>
-                    <Col md={3}>
+                    <Col md={4}>
                         <ListGroup variant='flush'>
                             <ListGroup.Item>
                                 <h3>{product.name}</h3>

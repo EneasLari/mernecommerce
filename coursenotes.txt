@@ -27,6 +27,8 @@ cdn
 React router and react router bootstrap
 npm install --save react-router-dom
 npm install --save  react-router-bootstrap
+npm i react-icons
+npm i bootstrap
 
 BackEnd
 npm init -  outside backend and frontend folder
